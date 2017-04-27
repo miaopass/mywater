@@ -7,7 +7,7 @@ $str="<?xml version='1.0'?>
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL,"http://127.0.0.1:8080/hello1.php");
+curl_setopt($ch, CURLOPT_URL,"http://120.25.57.130/mywater/hello1.php");
 
 curl_setopt($ch, CURLOPT_POST, true);
 
