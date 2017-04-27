@@ -1,5 +1,5 @@
 ﻿<?php
-$str="<?xml version='1.0'?>
+$str="<?xml version='1.0'encoding='UTF-8'?>
 <object>
 <deviceid>010002</deviceid>
 <custid>0001</custid>
