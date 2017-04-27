@@ -4,7 +4,7 @@ $xml = simplexml_load_string($file_in);
 
 $password= $xml->deviceid;
 if($password =='010002'){
-$str="<?xml version='1.0'encoding='UTF-8'?>
+$str="<?xml version='1.0'?>
 <object>
 <custid>0001</custid>
 </object>";
