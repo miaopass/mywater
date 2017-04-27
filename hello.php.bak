@@ -1,20 +1,6 @@
 ﻿<?php
+--with-config-file-path=D:\php;
+?>
 
-$str = <<<XML
-<?xml version='1.0'enconding='gb2312'?>
-<object name ='商品'>
-<book>
-<computerbook>PHP从入门到精通</computerbook>
-</book>
-<book>
-<computerbook name = 'PHP从入门到精通'/>
-</book>
-</object>
-XML;
-/* ********************* */
-$xml = simplexml_load_string($str);
-echo $xml[name].'<br>';
-echo "中文Hello World!";
-?>  
 
 
